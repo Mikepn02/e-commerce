@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:   #005E9C;
+   padding: auto;
+    box-shadow: 0 10px 15px    #005E9C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 320px;
+    height: 480px;
+    
+}
+.input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+}
+.your-input input{
+  width: 100%;
+  padding-top: 1.1rem;
+  padding-left: 9px;
+  outline: none;
+  border: black;
+  border-radius: 3px;
+  transition: .2s;
+}
+#sign{
+    border-radius: 15px;
+    height: 35px;
+}
+.text p{
+ font-size: .8rem;
+ padding-top: 0.3rem;
+}
+.join-now{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: .2rem;
+    color: #fff;
+}
+.forgot{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+}
+.text{
+    padding-bottom: 20px;
+    position: relative;
+    color: #fff;
+}
+.home{
+    padding-left: 2rem;
+}
+
